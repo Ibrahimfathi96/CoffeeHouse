@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     gap: SPACING.space_20,
-    padding: SPACING.space_4,
+    paddingVertical: SPACING.space_4,
+    paddingHorizontal: SPACING.space_8,
   },
   PriceContainer: {
     alignItems: "center",
@@ -72,7 +73,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    height: SPACING.space_36 * 1.8,
+    height: SPACING.space_36 * 1.6,
     borderRadius: BORDERRADIUS.radius_20,
   },
   ButtonText: {

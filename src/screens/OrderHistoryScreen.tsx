@@ -38,6 +38,7 @@ const OrderHistoryScreen = ({ navigation }: any) => {
   return (
     <View style={styles.ScreenContainer}>
       <StatusBar backgroundColor={COLORS.primaryBlackHex} />
+      <HeaderBar title="Order History" />
 
       {showAnimation ? (
         <PopUpAnimation
@@ -56,8 +57,6 @@ const OrderHistoryScreen = ({ navigation }: any) => {
           style={[styles.ScrollViewInnerView, { marginBottom: tabBarHeight }]}
         >
           <View style={styles.ItemContainer}>
-            <HeaderBar title="Order History" />
-
             {OrderHistoryList.length == 0 ? (
               <EmptyListAnimation title={"No Order History"} />
             ) : (
@@ -74,20 +73,20 @@ const OrderHistoryScreen = ({ navigation }: any) => {
               </View>
             )}
           </View>
-          {OrderHistoryList.length > 0 ? (
-            <TouchableOpacity
-              style={styles.DownloadButton}
-              onPress={() => {
-                buttonPressHandler();
-              }}
-            >
-              <Text style={styles.ButtonText}>Download</Text>
-            </TouchableOpacity>
-          ) : (
-            <></>
-          )}
         </View>
       </ScrollView>
+      {OrderHistoryList.length > 0 ? (
+        <TouchableOpacity
+          style={styles.DownloadButton}
+          onPress={() => {
+            buttonPressHandler();
+          }}
+        >
+          <Text style={styles.ButtonText}>Download</Text>
+        </TouchableOpacity>
+      ) : (
+        <></>
+      )}
     </View>
   );
 };

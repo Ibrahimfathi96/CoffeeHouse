@@ -15,29 +15,7 @@ import CustomIcon from "../components/CustomIcon";
 import { useStore } from "../store/store";
 import PopUpAnimation from "../components/PopUpAnimation";
 import styles from "./PaymentScreen.styles";
-
-const PaymentList = [
-  {
-    name: "Wallet",
-    icon: "icon",
-    isIcon: true,
-  },
-  {
-    name: "Google Pay",
-    icon: require("../assets/app_images/gpay.png"),
-    isIcon: false,
-  },
-  {
-    name: "Apple Pay",
-    icon: require("../assets/app_images/applepay.png"),
-    isIcon: false,
-  },
-  {
-    name: "Amazon Pay",
-    icon: require("../assets/app_images/amazonpay.png"),
-    isIcon: false,
-  },
-];
+import PaymentList from "../data/PaymentMethods";
 
 const PaymentScreen = ({ navigation, route }: any) => {
   const calculateCartPrice = useStore((state: any) => state.calculateCartPrice);

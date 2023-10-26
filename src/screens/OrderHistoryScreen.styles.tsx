@@ -30,11 +30,12 @@ const styles = StyleSheet.create({
     gap: SPACING.space_30,
   },
   DownloadButton: {
-    margin: SPACING.space_20,
+    margin: SPACING.space_16,
+    marginBottom: SPACING.space_30 * 2.7,
     backgroundColor: COLORS.primaryOrangeHex,
     alignItems: "center",
     justifyContent: "center",
-    height: SPACING.space_36 * 2,
+    height: SPACING.space_36 * 1.6,
     borderRadius: BORDERRADIUS.radius_20,
   },
   ButtonText: {
