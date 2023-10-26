@@ -1,19 +1,12 @@
 import React, { useState } from "react";
 import {
-  StyleSheet,
   Text,
   View,
   StatusBar,
   ScrollView,
   TouchableOpacity,
 } from "react-native";
-import {
-  BORDERRADIUS,
-  COLORS,
-  FONTFAMILY,
-  FONTSIZE,
-  SPACING,
-} from "../theme/theme";
+import { COLORS, FONTSIZE } from "../theme/theme";
 import GradientBGIcon from "../components/GradientBGIcon";
 import PaymentMethod from "../components/PaymentMethod";
 import PaymentFooter from "../components/PaymentFooter";

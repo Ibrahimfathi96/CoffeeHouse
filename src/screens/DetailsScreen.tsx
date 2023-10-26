@@ -2,20 +2,13 @@ import React, { useState } from "react";
 import {
   ScrollView,
   StatusBar,
-  StyleSheet,
   Text,
   View,
   TouchableWithoutFeedback,
   TouchableOpacity,
 } from "react-native";
 import { useStore } from "../store/store";
-import {
-  BORDERRADIUS,
-  COLORS,
-  FONTFAMILY,
-  FONTSIZE,
-  SPACING,
-} from "../theme/theme";
+import { COLORS, FONTSIZE } from "../theme/theme";
 import ImageBackgroundInfo from "../components/ImageBackgroundInfo";
 import PaymentFooter from "../components/PaymentFooter";
 import styles from "./DetailsScreen.styles";

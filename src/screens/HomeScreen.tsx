@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import {
   ScrollView,
   StatusBar,
-  StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
@@ -11,18 +10,11 @@ import {
 } from "react-native";
 import { useStore } from "../store/store";
 import { useBottomTabBarHeight } from "@react-navigation/bottom-tabs";
-import {
-  BORDERRADIUS,
-  COLORS,
-  FONTFAMILY,
-  FONTSIZE,
-  SPACING,
-} from "../theme/theme";
+import { COLORS, FONTSIZE } from "../theme/theme";
 import HeaderBar from "../components/HeaderBar";
 import CustomIcon from "../components/CustomIcon";
 import { FlatList } from "react-native";
 import CoffeeCard from "../components/CoffeeCard";
-import { Dimensions } from "react-native";
 import { getCategoriesFromData, getCoffeeList } from "../common/functions";
 import styles from "./HomeScreen.styles";
 

@@ -1,7 +1,6 @@
 import {
   ScrollView,
   StatusBar,
-  StyleSheet,
   Text,
   TouchableOpacity,
   View,
@@ -9,13 +8,7 @@ import {
 import React, { useState } from "react";
 import { useStore } from "../store/store";
 import { useBottomTabBarHeight } from "@react-navigation/bottom-tabs";
-import {
-  BORDERRADIUS,
-  COLORS,
-  FONTFAMILY,
-  FONTSIZE,
-  SPACING,
-} from "../theme/theme";
+import { COLORS } from "../theme/theme";
 import HeaderBar from "../components/HeaderBar";
 import EmptyListAnimation from "../components/EmptyListAnimation";
 import PopUpAnimation from "../components/PopUpAnimation";

@@ -1,15 +1,8 @@
 import React from "react";
-import {
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
-} from "react-native";
+import { ScrollView, StatusBar, View, TouchableOpacity } from "react-native";
 import { useStore } from "../store/store";
 import { useBottomTabBarHeight } from "@react-navigation/bottom-tabs";
-import { COLORS, SPACING } from "../theme/theme";
+import { COLORS } from "../theme/theme";
 import HeaderBar from "../components/HeaderBar";
 import EmptyListAnimation from "../components/EmptyListAnimation";
 import PaymentFooter from "../components/PaymentFooter";
@@ -104,26 +97,5 @@ const CartScreen = ({ navigation, route }: any) => {
     </View>
   );
 };
-
-// const styles = StyleSheet.create({
-//   ScreenContainer: {
-//     flex: 1,
-//     backgroundColor: COLORS.primaryBlackHex,
-//   },
-//   ScrollViewFlex: {
-//     flexGrow: 1,
-//   },
-//   ScrollViewInnerView: {
-//     flex: 1,
-//     justifyContent: "space-between",
-//   },
-//   ItemContainer: {
-//     flex: 1,
-//   },
-//   ListItemContainer: {
-//     paddingHorizontal: SPACING.space_20,
-//     gap: SPACING.space_20,
-//   },
-// });
 
 export default CartScreen;

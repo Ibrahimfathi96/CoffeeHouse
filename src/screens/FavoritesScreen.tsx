@@ -1,15 +1,8 @@
 import React from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  StatusBar,
-  ScrollView,
-  TouchableOpacity,
-} from "react-native";
+import { View, StatusBar, ScrollView, TouchableOpacity } from "react-native";
 import { useStore } from "../store/store";
 import { useBottomTabBarHeight } from "@react-navigation/bottom-tabs";
-import { COLORS, SPACING } from "../theme/theme";
+import { COLORS } from "../theme/theme";
 import HeaderBar from "../components/HeaderBar";
 import EmptyListAnimation from "../components/EmptyListAnimation";
 import FavoritesItemCard from "../components/FavoritesItemCard";
@@ -28,6 +21,7 @@ const FavoritesScreen = ({ navigation }: any) => {
   return (
     <View style={styles.ScreenContainer}>
       <StatusBar backgroundColor={COLORS.primaryBlackHex} />
+      <HeaderBar title="Favourites" />
 
       <ScrollView
         showsVerticalScrollIndicator={false}
@@ -37,8 +31,6 @@ const FavoritesScreen = ({ navigation }: any) => {
           style={[styles.ScrollViewInnerView, { marginBottom: tabBarHeight }]}
         >
           <View style={styles.ItemContainer}>
-            <HeaderBar title="Favourites" />
-
             {FavoritesList.length == 0 ? (
               <EmptyListAnimation title={"No Favourites"} />
             ) : (
