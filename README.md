@@ -1,79 +1,128 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<h1 align="left">Hey 👋 What's up?</h1>
 
-# Getting Started
+###
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<h3 align="left">This is Coffee House Application</h3>
 
-## Step 1: Start the Metro Server
+###
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+<h3 align="left">About The Application:</h3>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+###
 
-```bash
-# using npm
-npm start
+<p align="left">Mobile Application Using React Native & React Navigations & Animations with lottie & Zustand & Async Storage </p>
 
-# OR using Yarn
-yarn start
+###
+
+<h3 align="left">Photos Of the App</h3>
+
+###
+
+<div align="left" style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <div style="margin: 10px;">
+    <img src="./Photos/1.jpg" alt="Image 1" width="200">
+    <img src="./Photos/2.jpg" alt="Image 2" width="200">
+    <img src="./Photos/3.jpg" alt="Image 3" width="200">
+    <img src="./Photos/4.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/5.jpg" alt="Image 1" width="200">
+    <img src="./Photos/6.jpg" alt="Image 2" width="200">
+    <img src="./Photos/7.jpg" alt="Image 3" width="200">
+    <img src="./Photos/8.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/9.jpg" alt="Image 1" width="200">
+    <img src="./Photos/10.jpg" alt="Image 2" width="200">
+    <img src="./Photos/11.jpg" alt="Image 3" width="200">
+    <img src="./Photos/12.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/13.jpg" alt="Image 1" width="200">
+    <img src="./Photos/14.jpg" alt="Image 2" width="200">
+    <img src="./Photos/15.jpg" alt="Image 3" width="200">
+    <img src="./Photos/16.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/17.jpg" alt="Image 1" width="200">
+    <img src="./Photos/18.jpg" alt="Image 2" width="200">
+    <img src="./Photos/19.jpg" alt="Image 3" width="200">
+    <img src="./Photos/20.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/21.jpg" alt="Image 1" width="200">
+    <img src="./Photos/22.jpg" alt="Image 2" width="200">
+    <img src="./Photos/23.jpg" alt="Image 3" width="200">
+    <img src="./Photos/24.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/25.jpg" alt="Image 1" width="200">
+    <img src="./Photos/26.jpg" alt="Image 2" width="200">
+    <img src="./Photos/27.jpg" alt="Image 3" width="200">
+    <img src="./Photos/28.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/29.jpg" alt="Image 1" width="200">
+    <img src="./Photos/30.jpg" alt="Image 2" width="200">
+    <img src="./Photos/31.jpg" alt="Image 3" width="200">
+    <img src="./Photos/32.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/33.jpg" alt="Image 1" width="200">
+    <img src="./Photos/34.jpg" alt="Image 2" width="200">
+    <img src="./Photos/35.jpg" alt="Image 3" width="200">
+    <img src="./Photos/36.jpg" alt="Image 3" width="200">
+  </div>
+  <div style="margin: 10px;">
+    <img src="./Photos/37.jpg" alt="Image 1" width="200">
+    <img src="./Photos/38.jpg" alt="Image 2" width="200">
+    <img src="./Photos/39.jpg" alt="Image 3" width="200">
+    <img src="./Photos/40.jpg" alt="Image 3" width="200">
+  </div>
+</div>
+
+###
+
+<h2 align="left">Video Of the Application</h2>
+
+###
+
+<p align="left">https://drive.google.com/file/d/16CM4X8G2vOshkvy5mbca_lTWQmSawcQS/view?usp=sharing</p>
+
+###
+
+###
+
+<h2 align="left">Techs Used in this application:</h2>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="40" alt="npm logo"  />
+  <img width="12" />
+  <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" height="40" alt="react native logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+</div>
+
+###
+
+#### install all dependencies
+
+```js
+ npm install
 ```
 
-## Step 2: Start your Application
+#### Run the application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+```js
+ npm start
 ```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
